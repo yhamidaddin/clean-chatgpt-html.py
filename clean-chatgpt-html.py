@@ -37,7 +37,8 @@ else:
     # Step 3: Remove specific <div> and <button> tags
     div_classes_to_remove = [
         "draggable no-draggable-children sticky top-0 p-3 mb-1.5 flex items-center justify-between z-10 h-header-height font-semibold bg-token-main-surface-primary max-md:hidden",
-        "md:pt-0 dark:border-white/20 md:border-transparent md:dark:border-transparent w-full"
+        "md:pt-0 dark:border-white/20 md:border-transparent md:dark:border-transparent w-full",
+        "bg-token-sidebar-surface-primary"
     ]
     
     button_classes_to_remove = [
